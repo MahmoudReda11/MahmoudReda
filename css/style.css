@@ -1171,17 +1171,19 @@ body.dark .all-form input
 }
 .btn{
     padding: 15px 20px;
-    background-color: #149ddd;
+    background-color: #149ddd !important;
     font-size: 17px;
     font-weight: normal;
     border: none;
     outline: none;
     border-radius: 10px;
-    color: #fff;
-
-    
+    color: #fff !important;
+    border: 2px solid #149ddd !important;
 }
-
+.btn:hover{
+    background: transparent !important;
+    color: #149ddd !important;
+}
 
 
 
